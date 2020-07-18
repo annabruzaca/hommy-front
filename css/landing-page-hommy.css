@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+  text-decoration: none;
+}
+
+nav{
+  background-color: #020074;
+  margin-top: 20px;
+}
+h1{
+  color: #020074;
+}
+h3{
+  color: #FF951A;
+  }
+h5{
+  color: black;
+}
+.palavras-chave {
+  color: #FF951A
+}
+
+form{
+  color: #828282;
+}
+.links-nav {
+    text-decoration: none;
+    color: #FF951A;
+}
