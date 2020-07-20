@@ -14,7 +14,7 @@ nav{
   justify-content: flex-end;
   margin-bottom: 10%;
 }
-.nav{
+.nav-1{
     width: 100%;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ nav{
 }
 .imagem-direita-3{
     heigh: 100%;
-    margin: 5%;
+    margin-left: 5%;
 }
 .botoes-principais{
     color: none;
@@ -150,8 +150,8 @@ nav{
     margin-bottom: 5%;
 }
 .imagem-3{
-    width: 35%;
-    margin: 1%;
+    width: 30%;
+    margin: 0%;
 }
 .titulo-3{
     color: #FF951A;
