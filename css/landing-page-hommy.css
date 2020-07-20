@@ -51,19 +51,12 @@ nav{
     margin-right: 10px;
 }
 .parte-1{
-    background-image: url("fundo-hommy-1.png"),url("fundo-hommy-2.png");
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-}
-.parte-1{
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     widht: 100%;
     margin-left: 10%;
-    background-color: #FF951A #020074;
-    background-blend-mode: display;
 }
 .parte-1-escrita{
     display: flex;
@@ -82,7 +75,7 @@ nav{
     margin: 5%;
 }
 .botoes-principais{
-    color: white;
+    color: none;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -98,7 +91,7 @@ nav{
     margin: 4px 4px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 .button-search-rep{
     background-color: #020074;
@@ -112,5 +105,67 @@ nav{
     margin: 4px 4px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.imagem-titulo-e-texto-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    widht: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.imagem-titulo-e-texto-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    widht: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.imagem-titulo-e-texto-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    widht: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.titulo-e-texto-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.imagem-3{
+    width: 400px;
+    margin: 1%;
+}
+.titulo-3{
+    color: #FF951A;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.veja-mais-imagens{
+    display: flex;
+    flex direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.veja-mais-texto{
+    display: flex;
+    flex direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1%;
+}
+.baixar-veja-mais{
+    display: block;
+    align-items: center;
+    margin: 5%;
+    margin-left: 42%
 }
