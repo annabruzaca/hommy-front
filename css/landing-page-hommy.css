@@ -229,3 +229,227 @@ footer{
     margin-bottom:1%;
     margin-right: 20px;
 }
+
+@media (max-width: 500px){
+    body{
+        background-color: #f2f2f2;
+    }
+    nav{
+      background-color: #020074;
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      width: 100%;
+      height: 50px;
+      justify-content: flex-end;
+      margin-bottom: 10%;
+    }
+    .nav-1{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-size: 0.6em;
+        margin-right: 5%;
+    }
+    .links-nav{
+        text-decoration: none;
+        color: white;
+        opacity: 0.8;
+        display: block;
+    }
+    .links-nav:hover{
+        opacity: 1;
+    }
+    .botoes-nav{
+        background-color: #FF951A;
+        border: none;
+        color: #020074;
+        padding: 3px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 1px 3px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 5%
+        margin-right: 5%;
+    }
+    .parte-1{
+        widht: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .parte-1-escrita{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%
+        margin-bottom: 5%;
+        margin: 5%;
+        margin-right: 10%;
+    }
+    .titulo-principal{
+        color: #FF951A;
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 5%;
+        margin-top: 20%;
+    }
+    .imagem-direita-3{
+        display: none;
+    }
+    .botoes-principais{
+        color: none;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .baixar-app{
+        background-color: #FF951A;
+        border: none;
+        color: #020074;
+        padding: 6px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 4px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    }
+    .button-search-rep{
+        background-color: #020074;
+        border: none;
+        color: #FF951A;
+        padding: 6px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 4px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    }
+    .imagem-principal{
+        max-width: 0%;
+        height: auto;
+        opacity: 0.0;
+    }
+    .imagem-titulo-e-texto-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        widht: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .imagem-titulo-e-texto-2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        widht: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .imagem-titulo-e-texto-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        widht: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .titulo-e-texto-3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .imagem-3{
+        width: 100%;
+        margin: 0%;
+        background-color: #F2F2F2;
+    }
+    .titulo-3{
+        color: #FF951A;
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 3%;
+    }
+    .imagem-titulo-e-texto-background{
+        background-color: #F2F2F2;
+    }
+    .veja-mais-imagens-e-texto{
+        background-color: #f2f2f2;
+    }
+    .veja-mais-imagens{
+        max-width: 0%;
+        height: auto;
+        opacity: 0.0;
+    }
+    .veja-mais-texto{
+        font-size: 0.0em;
+    }
+    .baixar-veja-mais{
+        display: block;
+        align-items: center;
+        margin-left: 20%
+    }
+    footer{
+        background-color: #FF951A;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+    }
+    .redes-sociais-gerais{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 10%
+    }
+    .redes-sociais{
+        width: 50%;
+    }
+    .links-footer-geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .links-footer{
+        text-decoration: none;
+        color: #020074;
+        opacity: 0.8;
+        display: flex;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        font-size: 0.6em;
+    }
+    .links-footer:hover{
+        opacity: 1;
+    }
+    .contato-footer-geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        font-size: 0.5em;
+    }
+    .contato-footer{
+        display: inline-block;
+        margin-top: 2%;
+        margin-bottom:1%;
+        margin-right: 20px;
+    }
+}
